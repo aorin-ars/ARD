@@ -1,0 +1,39 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "ARD Demo RP",
+    "description": "ARD 描画距離突破のリファレンス実装(デモ) - 碧臨重工(AORIN)",
+    "uuid": "ff918ec9-b20f-47b7-a95f-12021913c23b",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "32458e65-7c63-4abb-8237-bc9b6f8a24d0",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "72b746ea-be1d-40df-840f-1e025cffc7e8",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

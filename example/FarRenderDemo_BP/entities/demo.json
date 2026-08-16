@@ -1,0 +1,39 @@
+{
+  "format_version": "1.19.80",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "fdr:demo",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
+    "components": {
+      "minecraft:physics": {},
+      "minecraft:health": {
+        "value": 20,
+        "max": 20
+      },
+      "minecraft:collision_box": {
+        "width": 1.4,
+        "height": 1.4
+      },
+      "minecraft:movement": {
+        "value": 0.15
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:navigation.walk": {
+        "can_walk": true
+      },
+      "minecraft:jump.static": {},
+      "minecraft:behavior.random_stroll": {
+        "priority": 1,
+        "speed_multiplier": 1.0
+      },
+      "minecraft:type_family": {
+        "family": [
+          "fdr_demo",
+          "mob"
+        ]
+      }
+    }
+  }
+}

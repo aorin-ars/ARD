@@ -1,0 +1,54 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "ARD Demo BP",
+    "description": "ARD 描画距離突破のリファレンス実装(デモ) - 碧臨重工(AORIN)",
+    "uuid": "72b746ea-be1d-40df-840f-1e025cffc7e8",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "7d9297af-8797-4261-923e-121d335b07b8",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "9c1264c7-8ac8-484c-b313-f4c070dcf32d",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.15.0"
+    },
+    {
+      "uuid": "ff918ec9-b20f-47b7-a95f-12021913c23b",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

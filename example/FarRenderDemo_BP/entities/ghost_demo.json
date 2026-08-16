@@ -1,0 +1,113 @@
+{
+  "format_version": "1.19.80",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "fdr:ghost_demo",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "properties": {
+        "fdr:active": {
+          "type": "bool",
+          "default": false,
+          "client_sync": true
+        },
+        "fdr:tx": {
+          "type": "float",
+          "range": [
+            -1000.0,
+            1000.0
+          ],
+          "default": 0.0,
+          "client_sync": true
+        },
+        "fdr:ty": {
+          "type": "float",
+          "range": [
+            -1000.0,
+            1000.0
+          ],
+          "default": 0.0,
+          "client_sync": true
+        },
+        "fdr:tz": {
+          "type": "float",
+          "range": [
+            -1000.0,
+            1000.0
+          ],
+          "default": 0.0,
+          "client_sync": true
+        },
+        "fdr:yaw": {
+          "type": "float",
+          "range": [
+            -360.0,
+            360.0
+          ],
+          "default": 0.0,
+          "client_sync": true
+        },
+        "fdr:px": {
+          "type": "float",
+          "range": [
+            -64.0,
+            64.0
+          ],
+          "default": 0.0,
+          "client_sync": true
+        },
+        "fdr:pz": {
+          "type": "float",
+          "range": [
+            -64.0,
+            64.0
+          ],
+          "default": 0.0,
+          "client_sync": true
+        },
+        "fdr:cut": {
+          "type": "float",
+          "range": [
+            10.0,
+            200.0
+          ],
+          "default": 64.0,
+          "client_sync": true
+        }
+      }
+    },
+    "components": {
+      "minecraft:physics": {
+        "has_gravity": false,
+        "has_collision": false
+      },
+      "minecraft:collision_box": {
+        "width": 0.1,
+        "height": 0.1
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "all",
+            "deals_damage": false
+          }
+        ]
+      },
+      "minecraft:fire_immune": {},
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:persistent": {},
+      "minecraft:type_family": {
+        "family": [
+          "fdr_ghost",
+          "inanimate"
+        ]
+      }
+    }
+  }
+}

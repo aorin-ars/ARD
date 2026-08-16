@@ -1,0 +1,24 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "fdr:demo",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/creeper/creeper"
+      },
+      "geometry": {
+        "default": "geometry.fdr_demo"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#00e5ff",
+        "overlay_color": "#7b61ff"
+      }
+    }
+  }
+}

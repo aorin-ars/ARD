@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "fdr:ghost_demo",
+      "materials": {
+        "default": "phantom"
+      },
+      "textures": {
+        "default": "textures/entity/creeper/creeper"
+      },
+      "geometry": {
+        "default": "geometry.fdr_ghost_demo"
+      },
+      "animations": {
+        "world": "animation.fdr.world"
+      },
+      "scripts": {
+        "animate": [
+          "world"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.fdr_ghost"
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.fdr.world": {
+      "loop": true,
+      "bones": {
+        "proto_root": {
+          "position": [
+            "query.property('fdr:tx') * 16",
+            "query.property('fdr:ty') * 16",
+            "-query.property('fdr:tz') * 16"
+          ]
+        },
+        "proto_yaw": {
+          "rotation": [
+            0,
+            "query.property('fdr:yaw')",
+            0
+          ]
+        }
+      }
+    }
+  }
+}
